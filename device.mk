@@ -484,6 +484,7 @@ PRODUCT_PACKAGES += \
     BerylliumSettingsProviderOverlay \
     BerylliumSystemUIOverlay \
     BerylliumTelephonyOverlay \
+    ReloadedBerylliumSettingsOverlay \
     TetheringConfigOverlay \
     WifiOverlay
 
