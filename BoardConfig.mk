@@ -121,7 +121,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 include vendor/reloaded/config/BoardConfigReloaded.mk
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2020-12-01
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
