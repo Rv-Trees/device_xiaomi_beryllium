@@ -574,3 +574,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Logs
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.log.tag.OpenGLRenderer=S
+
+# dalvik
+PRODUCT_SYSTEM_PROPERTIES += \
+    dalvik.vm.dex2oat64.enabled=true
