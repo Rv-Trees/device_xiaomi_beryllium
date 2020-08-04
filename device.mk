@@ -404,6 +404,7 @@ PRODUCT_PACKAGES += \
     BerylliumSettingsOverlay \
     BerylliumSettingsProviderOverlay \
     BerylliumSystemUIOverlay \
+    ReloadedBerylliumSystemUIOverlay \
     ReloadedBerylliumSettingsOverlay \
     WifiOverlay
 
