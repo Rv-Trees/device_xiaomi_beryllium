@@ -578,3 +578,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # dalvik
 PRODUCT_SYSTEM_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true
+
+# Shutdown
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.build.shutdown_timeout=2
