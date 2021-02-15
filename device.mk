@@ -161,7 +161,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     camera.disable_zsl_mode=true \
     persist.vendor.camera.perfcapture=1 \
-    vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam
+    vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,org.pixelexperience.faceunlock
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -478,6 +478,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     BerylliumCarrierConfigOverlay \
+    BerylliumFaceUnlockServiceOverlay \
     BerylliumFrameworksOverlay \
     BerylliumNoCutoutOverlay \
     BerylliumSettingsOverlay \
