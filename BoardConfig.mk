@@ -65,6 +65,9 @@ TARGET_KERNEL_CONFIG := vendor/xiaomi/beryllium_defconfig
 TARGET_KERNEL_SDCLANG_COMPILE := false
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 
+# Light
+TARGET_PROVIDES_LIBLIGHT := true
+
 # LMKD
 TARGET_LMKD_STATS_LOG := true
 
