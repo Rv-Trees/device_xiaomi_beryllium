@@ -304,6 +304,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_beryllium
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Listen
 PRODUCT_VENDOR_PROPERTIES += \
     ro.audio.soundtrigger=sva \
