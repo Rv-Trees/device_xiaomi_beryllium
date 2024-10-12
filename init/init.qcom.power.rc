@@ -268,6 +268,10 @@ on property:sys.boot_completed=1
 on property:init.svc.recovery=running
     trigger enable-low-power
 
+    # Charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
+
 service vendor.power_off_alarm /vendor/bin/power_off_alarm
     class core
     group system
