@@ -9,7 +9,9 @@ LOCAL_OVERRIDES_PACKAGES := \
     Drive \
     Gmail2 \
     Maps \
-    YouTube
+    YouTube \
+    PersonalSafety \
+    Abstruct
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
