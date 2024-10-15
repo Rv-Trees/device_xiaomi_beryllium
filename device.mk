@@ -377,6 +377,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Overlays
 PRODUCT_PACKAGES += \
     BerylliumCarrierConfigOverlay \
