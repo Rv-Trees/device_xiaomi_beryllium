@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 $(call inherit-product, vendor/reloaded/config/product.mk)
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.reloaded.device_maintainer=reignz3
+    ro.reloaded.device_maintainer=Rve
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := beryllium
